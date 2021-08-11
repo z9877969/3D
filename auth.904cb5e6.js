@@ -59,4 +59,4 @@ module.exports=require("./lib/axios");
 },{"./lib/axios":"nUiQ"}],"zSTK":[function(require,module,exports) {
 "use strict";var e=t(require("axios"));function t(e){return e&&e.__esModule?e:{default:e}}const o={authForm:document.getElementById("auth"),email:document.querySelector('[name="email"]'),password:document.querySelector('[name="password"]')};o.authForm.addEventListener("submit",t=>{t.preventDefault();o.email.value,o.password.value;e.default.get("https://callboard-backend.goit.global/auth/google").then(e=>console.log(e)).catch(e=>console.log(e))}),console.log(o);
 },{"axios":"dZBD"}]},{},["zSTK"], null)
-//# sourceMappingURL=/auth.904cb5e6.js.map
+//# sourceMappingURL=/3D/auth.904cb5e6.js.map
